@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -X GET SITE_URL
+curl -X GET $SITE_URL
