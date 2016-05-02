@@ -1,3 +1,9 @@
 #!/bin/bash
 
-curl -X GET baidu.com >> /data/log
+while true
+do
+
+	curl -X GET baidu.com >> /data/log
+	sleep 3
+
+done
