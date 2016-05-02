@@ -3,7 +3,7 @@
 while true
 do
 
-	curl -X GET baidu.com > /data/log.txt
+	curl -X GET http://baidu.com/index.html > /data/log.txt
 	export TZ=Asia/Shanghai && date >> /data/log.txt
 	sleep 3
 
